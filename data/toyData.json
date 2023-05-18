@@ -1,0 +1,77 @@
+ [
+    {
+      "category": "Marvel",
+      "img": "marvel-1.jpg",
+      "name": "Iron Man",
+      "description": "Tony Stark suits up as Iron Man to protect the world.",
+      "price": 19.99,
+      "rating": 4.5
+    },
+    {
+      "category": "Marvel",
+      "img": "marvel-2.jpg",
+      "name": "Spider-Man",
+      "description": "Peter Parker swings through the city as Spider-Man, fighting crime.",
+      "price": 14.99,
+      "rating": 4.2
+    },
+    {
+      "category": "Marvel",
+      "img": "marvel-3.jpg",
+      "name": "Captain America",
+      "description": "Steve Rogers wields his shield as the patriotic Captain America.",
+      "price": 24.99,
+      "rating": 4.8
+    },
+    {
+      "category": "DC",
+      "img": "dc-1.jpg",
+      "name": "Batman",
+      "description": "Bruce Wayne prowls the streets of Gotham City as the Dark Knight.",
+      "price": 22.99,
+      "rating": 4.7
+    },
+    {
+      "category": "DC",
+      "img": "dc-2.jpg",
+      "name": "Superman",
+      "description": "Clark Kent fights for truth, justice, and the American way as Superman.",
+      "price": 26.99,
+      "rating": 4.6
+    },
+    {
+
+      "category": "DC",
+      "img": "dc-3.jpg",
+      "name": "Wonder Woman",
+      "description": "Diana Prince defends the world with her lasso and Amazonian powers.",
+      "price": 21.99,
+      "rating": 4.4
+    },
+    {
+
+      "category": "Transformers",
+      "img": "transformers-1.jpg",
+      "name": "Optimus Prime",
+      "description": "The Autobot leader, Optimus Prime, battles the Decepticons.",
+      "price": 29.99,
+      "rating": 4.9
+    },
+    {
+
+      "category": "Transformers",
+      "img": "transformers-2.jpg",
+      "name": "Bumblebee",
+      "description": "The Autobot scout, Bumblebee, aids in the fight against the Decepticons.",
+      "price": 18.99,
+      "rating": 4.3
+    },
+    {
+      "category": "Transformers",
+      "img": "transformers-3.jpg",
+      "name": "Megatron",
+      "description": "The Decepticon leader, Megatron, seeks to conquer the universe.",
+      "price": 27.99,
+      "rating": 4.7
+    }
+  ]
