@@ -1,5 +1,6 @@
  [
     {
+      "_id": 1,
       "category": "Marvel",
       "img": "marvel-1.jpg",
       "name": "Iron Man",
@@ -8,6 +9,7 @@
       "rating": 4.5
     },
     {
+      "_id": 2,
       "category": "Marvel",
       "img": "marvel-2.jpg",
       "name": "Spider-Man",
@@ -16,6 +18,7 @@
       "rating": 4.2
     },
     {
+      "_id": 3,
       "category": "Marvel",
       "img": "marvel-3.jpg",
       "name": "Captain America",
@@ -24,6 +27,7 @@
       "rating": 4.8
     },
     {
+      "_id": 4,
       "category": "DC",
       "img": "dc-1.jpg",
       "name": "Batman",
@@ -32,6 +36,7 @@
       "rating": 4.7
     },
     {
+      "_id": 5,
       "category": "DC",
       "img": "dc-2.jpg",
       "name": "Superman",
@@ -40,7 +45,7 @@
       "rating": 4.6
     },
     {
-
+      "_id": 6,
       "category": "DC",
       "img": "dc-3.jpg",
       "name": "Wonder Woman",
@@ -49,7 +54,7 @@
       "rating": 4.4
     },
     {
-
+      "_id": 7,
       "category": "Transformers",
       "img": "transformers-1.jpg",
       "name": "Optimus Prime",
@@ -58,7 +63,7 @@
       "rating": 4.9
     },
     {
-
+      "_id": 8,
       "category": "Transformers",
       "img": "transformers-2.jpg",
       "name": "Bumblebee",
@@ -67,6 +72,7 @@
       "rating": 4.3
     },
     {
+      "_id": 9,
       "category": "Transformers",
       "img": "transformers-3.jpg",
       "name": "Megatron",
