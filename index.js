@@ -30,11 +30,21 @@ async function run() {
         res.send(result);
     })
 
-      app.get('/toys/:id', async(req, res)=>{
-        const id = req.params.id;
-        const query = { _id: new ObjectId(id)};
-        const toy = await toyStore.findOne(query);
-        res.send(toy);
+    app.get('/toys/:id', async(req, res)=>{
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id)};
+      const toy = await toyStore.findOne(query);
+      res.send(toy);
+    })
+
+    app.get('/usertoy', async(req, res)=>{
+      console.log(req.query);
+      let query = {};
+      if (req.query?.user) {
+        query = {'seller.email': req.query.user}
+      }
+      const results = await toyStore.find(query).toArray();
+      res.send(results);
     })
 
     app.post('/toys', async(req, res)=>{
