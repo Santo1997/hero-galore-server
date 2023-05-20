@@ -47,16 +47,26 @@ async function run() {
 
     app.get("/usertoy", async (req, res) => {
       let query = {};
+      let sortBy = {};
+
       if (req.query?.user) {
         query = { "seller.email": req.query.user };
       }
-      const results = await toyStore.find(query).toArray();
+
+      if (req.query?.sort === "asc") {
+        sortBy = { price: 1 };
+      } else if (req.query?.sort === "desc") {
+        sortBy = { price: -1 };
+      } else {
+        sortBy = { price: 1 };
+      }
+
+      const results = await toyStore.find(query).sort(sortBy).toArray();
       res.send(results);
     });
 
     app.post("/toys", async (req, res) => {
       const newToyItm = req.body;
-      console.log(newToyItm);
       const result = await toyStore.insertOne(newToyItm);
       res.send(result);
     });
