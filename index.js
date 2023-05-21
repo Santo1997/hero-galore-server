@@ -19,7 +19,8 @@ const client = new MongoClient(uri, {
 
 async function run() {
   try {
-    await client.connect();
+    // await client.connect();
+
     const toyStore = client.db("toyManager").collection("toys");
 
     app.get("/toys", async (req, res) => {
@@ -28,7 +29,6 @@ async function run() {
     });
 
     app.get("/all_toys", async (req, res) => {
-      let query;
       const limit = parseInt(req.query.limit);
       const allToy = await toyStore.find().toArray();
       if (limit === "all") {
